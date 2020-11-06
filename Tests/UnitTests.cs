@@ -9,7 +9,7 @@ namespace TravisCILab
         [Test]
         public void Add_Valid()
         {
-            Assert.AreEqual(21, Program.Add("9", "10"));
+            Assert.AreEqual(19, Program.Add("9", "10"));
             Assert.AreEqual(5, Program.Add("3", "2"));
             Assert.AreEqual(12, Program.Add("5", "7"));
         }
